@@ -1,0 +1,256 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* NAVBAR*/
+nav{
+	background-color: goldenrod;
+	color: black;
+	display:flex ;
+
+
+
+}
+.navbar {
+	align-items: center;
+      position: fixed;
+    width: 100%;
+   }
+
+.logo{
+	color: black;
+	font-size: 30px;
+	padding: 5px 15px 5px 20px;
+	margin: 5px 15px 5px 15px;
+	font-family: hevetica;
+	font-display: fallback;
+	
+}
+div ul li{
+	display: inline;
+	justify-content: space-between;
+ padding: 5px 5px 5px 5px;
+ align-items: center;
+
+
+
+} 
+a{
+	padding: 5px 5px 5px 5px;
+margin: 5px 5px 5px 5px;
+font-size: 20px;
+
+text-decoration-line: none;
+text-transform: capitalize;
+font-family: hevetica;
+
+}
+
+nav a:hover{
+	background-color: gold;
+	border-radius: 5%;
+}
+header div {
+	margin-left: auto;
+	margin-right: 25px;
+}
+.black-background{
+	background-color: black;
+	padding: 30px 30px 30px 30px;
+	margin: 60px 50px 50px 30px;
+	font-size: 30px;
+	font-family: cursive;
+
+
+}
+div .imgmain{
+	display: block;
+	margin-left: auto;
+margin-right: auto;
+background-position: absolute;
+
+
+}
+#container{
+	display: flex;
+align-items: center;
+}
+
+button{
+	margin: 30px;
+	background-color: lightskyblue;
+	padding: 10px;
+	font-size: 15px;
+	font-family: ariel;
+	border-radius: 30%;
+
+
+}
+button:hover {
+	color: red;
+	background-color: white;
+}
+body{
+	background-color: grey;
+	color: goldenrod;
+	font-family: monospace;
+
+}
+                /* FOOTER */
+footer{
+     margin: 2px;
+     padding: 10px;
+	background-color: goldenrod;
+	font-family: fantasy;
+	font-size: 20px;
+	color: black;
+}
+ #contact {
+	
+	margin-top: 5px;
+	border: solid;
+	border-radius: 50px;
+	border-color: darkred;
+	font-family: fantasy;
+      color: black;
+      display: flex;
+	justify-content: center;
+	
+}
+
+ div ol {
+	margin-left: 40PX;
+
+	font-size: 30px;
+
+}
+footer p {
+     display: flex;
+	justify-content: space-between;
+	color: goldenrod;
+	background-color: black;
+	padding: 10px;
+	
+}
+footer p b {
+letter-spacing: 11px;
+font-size: 25px;
+}
+
+
+                                   /* about me */
+
+      article{
+     border-style: solid;
+     border-color: black;
+     padding: 5px 5px 5px 5px;
+     margin: 5px 5px 5px 5px;
+     font-size: 20px;
+     width: auto;
+     margin-left: auto;
+     display: inline-flex;
+      }  
+      article h2{
+      	margin: 5px 5px 5px 5px;
+      }  
+
+      article p {
+      	color: white;
+      	margin: 10px;
+      	
+}
+article section #imgmain {
+width: 300px;
+height: 250px;
+margin-right: 100%;
+ border-style: solid;
+     border-color: red;
+     
+} 
+
+
+                                     /*SKILLS*/
+ 
+ 
+  aside {
+  	margin-top: 55px;
+ 	background-color: greenyellow;
+ 	background-image: url(images/skills.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+ 	
+ 	
+ 	color: whitesmoke;
+ 	align-items: center;
+ 	}
+
+ h1 { 
+ 	background-color: black;
+ 	display: flex;
+ 	justify-content: center;
+ 	font-family: ariel;
+ 	font-size:40px ;
+ 	border-color: white;
+ 	border-style: solid;
+ 	letter-spacing: 5px;
+ 	color: antiquewhite;
+ 	
+
+
+ }
+dl{
+	align-items: center;
+     display: flex;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+    font-family: fantasy;
+    font-size: 35px;
+}
+                      /* MEDIA QUERIES */
+   
+ @media (max-width: 768px) {
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav
+article {
+	display: block;
+	align-items: center;
+}
+#container{
+	display: block;
+	align-items: center;
+}
+div .imgmain{
+	margin: auto;
+	padding: auto;
+	width: 70%;
+
+}
+footer p{
+	
+}
+
+#contact{
+align-items: center;
+    flex-wrap: wrap;
+}
+
+#about{
+	display: block;
+
+}
+
+ #about section #imgmain {
+	width: 98%;
+	
+	margin: 3px;
+
+}
+
+#container p {
+	align-items: center;
+}
+ }
